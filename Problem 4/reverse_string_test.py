@@ -5,7 +5,7 @@ import reverse_string as reverse_string
 ERROR_MSG = "Validate the schema in the README"
 class TestClass:
     def test_one(self,monkeypatch,capsys):
-
+    
         # monkeypatch the "input" function, so that it returns "Mark".
         # This simulates the user entering "Mark" in the terminal:
         inputs = iter(["Hello there","Hey","done"])
